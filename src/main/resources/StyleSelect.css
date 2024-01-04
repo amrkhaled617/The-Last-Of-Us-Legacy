@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Aka-AcidGR-Compacta;
+    src: url('AC-Compacta.ttf');
+}
+.gameoverbox{
+    -fx-font-family:Aka-AcidGR-Compacta;
+-fx-background-color: black;
+}
+#gameovertext{
+    -fx-font-family:Aka-AcidGR-Compacta;
+    -fx-text-fill: white;
+    -fx-font-size: 100;
+}
+#exitgamebutton{
+    -fx-cursor: hand;
+    -fx-font-family:Aka-AcidGR-Compacta;
+    -fx-text-fill: red;
+    -fx-background-color: transparent;
+}
+#exitgamebutton:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}

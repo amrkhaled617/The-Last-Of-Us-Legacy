@@ -1,0 +1,416 @@
+@font-face {
+    font-family: Aka-AcidGR-Compacta;
+    src: url('AC-Compacta.ttf');
+}
+@font-face {
+    -fx-font-family:Public Pixel;
+    src:url('PublicPixel-z84yD.ttf');
+}
+.root{
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-background-image: url("background5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+
+}
+.label{
+    -fx-font-family: Aka-AcidGR-Compacta;
+}
+
+#startgame{
+    -fx-cursor: hand;
+    -fx-text-fill: lightgrey;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-font-size: 50px;
+    -fx-background-color: transparent;
+    -fx-focus-color:transparent;
+    -fx-border-width: 5;
+}
+#startgame:hover {
+    -fx-scale-x: 1.3;
+    -fx-scale-y: 1.3;
+    -fx-scale-z: 1.3;
+}
+.selectingheroesscene{
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-background-size: cover;
+    -fx-background-color: black;
+}
+
+#selecthero{
+    -fx-text-fill: lightgrey;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-background-radius: 5;
+    -fx-font-size: 50px;
+    -fx-background-color: transparent;
+    -fx-focus-color:transparent;
+    -fx-border-width: 5;
+}
+
+#Miller{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("miller.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Williams{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("williams.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Tess{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("tess.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Riley{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("riley.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Tommy{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("tommy.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Bill{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("bill.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#David{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("david.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Henry{
+    -fx-cursor: hand;
+    -fx-font-family: Aka-AcidGR-Compacta;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-focus-color:Cyan;
+    -fx-background-color: black;
+    -fx-background-image: url("henry.gif");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Herohplabel{
+    -fx-text-fill: grey;
+    -fx-font-size: 25;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+    -fx-font-weight: bold;
+}
+#HeroLabels{
+    -fx-font-size: 25px;
+    -fx-text-fill: #bd9c00;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
+#HeroInfoStyle{
+    -fx-text-fill: lightgrey;
+    -fx-font-size: 20;
+    -fx-stroke: black;
+    -fx-stroke-width: 2px;
+}
+#HerohudLabels{
+    -fx-font-size: 40px;
+    -fx-text-fill: #bd9c00;
+    -fx-font-weight: bold;
+}
+#HerohudInfoStyle{
+    -fx-text-fill: lightgrey;
+    -fx-font-size: 30;
+}
+#selectedheroname{
+    -fx-font-size: 60px;
+    -fx-text-fill: #bd9c00;
+    -fx-font-weight: bold;
+}
+#selectedherodetails{
+    -fx-text-fill: lightgrey;
+    -fx-font-size: 30;
+}
+#CharacterCell{
+    -fx-background-image:url("grass.png") ;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#TrapCell{
+    -fx-background-image:url("grass.png") ;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#Supply{
+    -fx-background-image:url("supply.gif") ;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: black;
+}
+#Vaccine{
+    -fx-background-image:url("vaccine.gif") ;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: black;
+}
+#EmptyCell{
+    -fx-background-color: #9f8d8d;
+    -fx-focus-color:transparent;
+}
+#Zombie{
+    -fx-cursor: crosshair;
+    -fx-background-image:url("zombie.png") ;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: black;
+}
+#Hero{
+    -fx-background-color: black;
+}
+#HudCurrHP{
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
+}
+#mapgrid{
+    -fx-background-image: url("hud.jpg");
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
+#hudcontainer{
+    -fx-background-image: url("brownwall.jpg");
+    -fx-border-color: black;
+    -fx-border-width: 8 8 8 8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 6;
+}
+#controlhud{
+    -fx-background-image: url("brownwall.jpg");
+    -fx-border-color: black;
+    -fx-border-width: 8 8 8 8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 6;
+}
+#heromenuhud{
+    -fx-background-image: url("brownwall.jpg");
+    -fx-border-color: black;
+    -fx-border-width: 8 8 8 8;
+    -fx-border-radius: 8;
+    -fx-background-radius: 6;
+}
+#herosmenubox{
+
+}
+#attack{
+    -fx-cursor: hand;
+    -fx-background-image: url("attack.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 95 95;
+    -fx-background-position: center;
+}
+#attack:focused{
+    -fx-focus-color: transparent;
+}
+#usespecial{
+    -fx-cursor: hand;
+    -fx-background-image: url("specialaction.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 95 95;
+    -fx-background-position: center;
+}
+#usespecial:focused{
+    -fx-focus-color: transparent;
+}
+#usevaccine{
+    -fx-cursor: hand;
+    -fx-background-image: url("vaccineicon.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 95 95;
+    -fx-background-position: center;
+}
+#usevaccine:focused{
+    -fx-focus-color: transparent;
+}
+#Startmenudetails{
+    -fx-padding: 3 3 ;
+    -fx-background-radius: 5;
+}
+#startgameherobar{
+    -fx-border-color: lightgrey;
+    -fx-border-radius: 5;
+    -fx-background-image: url("hud.jpg");
+    -fx-background-radius: 5;
+    -fx-border-width: 3;
+}
+#endturn{
+    -fx-cursor: hand;
+-fx-font-size: 15;
+}
+#endturn:focused{
+    -fx-focus-color: transparent;
+}
+#notificationsbar{
+    -fx-background-color:black;
+    -fx-border-color: grey;
+    -fx-border-width: 2.5px;
+}
+#notificationmessage{
+    -fx-text-fill: #bd9c00;
+    -fx-font-size: 30px;
+}
+.mainmap{
+
+}
+.map{
+
+}
+#playbutton{
+    -fx-cursor: hand;
+}
+#playbutton:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+#gameoverbox{
+
+}
+#gameovertext{
+    -fx-font-family:Aka-AcidGR-Compacta;
+    -fx-text-fill: white;
+    -fx-font-size: 100;
+}
+#exitgamebutton{
+    -fx-cursor: hand;
+    -fx-text-fill: red;
+    -fx-background-color: transparent;
+}
+#exitgamebutton:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+}
+#hpbar{
+    -fx-box-border:black;
+    -fx-accent:green;
+}
+#up{
+    -fx-cursor: hand;
+}
+#up:focused{
+    -fx-focus-color: transparent;
+}
+#right{
+    -fx-cursor: hand;
+}
+#right:focused{
+    -fx-focus-color: transparent;
+}
+#down{
+    -fx-cursor: hand;
+}
+#down:focused{
+    -fx-focus-color: transparent;
+}
+#left{
+    -fx-cursor: hand;
+ }
+#left:focused{
+    -fx-focus-color: transparent;
+}
+#controlscenebox{
+    -fx-background-color: black;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+#specil{
+    -fx-text-fill: #bd9c00;
+    -fx-font-size: 20;
+}
+#attckk{
+    -fx-text-fill: #bd9c00;
+    -fx-font-size: 20;
+}
+#vacinn{
+    -fx-text-fill: lightgrey;
+    -fx-font-size: 20;
+}
+#navigation{
+    -fx-background-image: url("arrows.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 95 95;
+    -fx-background-position: center;
+}
+#navigation:focused{
+    -fx-focus-color: transparent;
+}
